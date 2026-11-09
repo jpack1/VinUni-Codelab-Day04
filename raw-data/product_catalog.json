@@ -1,0 +1,90 @@
+[
+  {
+    "id": "PROD-001",
+    "name": "VinFast VF 5 Plus",
+    "category": "xe_dien",
+    "brand": "VinFast",
+    "price_vnd": 548000000,
+    "description": "SUV điện cỡ nhỏ, phạm vi 326 km/lần sạc, hỗ trợ lái bán tự động ADAS.",
+    "features": ["ADAS Level 2", "Màn hình 10.1 inch", "Pin LFP 37.23 kWh", "Bảo hành pin 10 năm"],
+    "availability": "in_stock",
+    "colors": ["Xanh ngọc", "Đỏ ruby", "Trắng ngà"]
+  },
+  {
+    "id": "PROD-002",
+    "name": "VinFast VF 8 Eco",
+    "category": "xe_dien",
+    "brand": "VinFast",
+    "price_vnd": 1129000000,
+    "description": "SUV điện cỡ trung, phạm vi 471 km/lần sạc, nội thất thuần chay, hỗ trợ ADAS nâng cao.",
+    "features": ["ADAS nâng cao", "Cốp 764 lít", "Sạc nhanh DC 110 kW", "Nội thất thuần chay"],
+    "availability": "in_stock",
+    "colors": ["Xanh dương", "Đen huyền", "Bạc ánh sao"]
+  },
+  {
+    "id": "PROD-003",
+    "name": "VinFast VF 9 Plus",
+    "category": "xe_dien",
+    "brand": "VinFast",
+    "price_vnd": 1764000000,
+    "description": "SUV điện cỡ lớn 7 chỗ, phạm vi 626 km/lần sạc, hệ thống ADAS toàn diện, ghế massage hàng đầu.",
+    "features": ["ADAS Level 2+", "7 chỗ ngồi", "Ghế massage", "Kính trời toàn cảnh", "Pin 123 kWh"],
+    "availability": "pre_order",
+    "colors": ["Đen premium", "Trắng tuyết", "Xám titan"]
+  },
+  {
+    "id": "PROD-004",
+    "name": "Vinpearl Resort & Spa Nha Trang",
+    "category": "du_lich",
+    "brand": "Vinpearl",
+    "price_vnd": 3500000,
+    "description": "Kỳ nghỉ 3N2Đ tại resort 5 sao Vinpearl Nha Trang, bao gồm bữa sáng buffet quốc tế, xe đưa đón sân bay.",
+    "features": ["Hồ bơi vô cực", "Spa chuyên nghiệp", "Buffet sáng miễn phí", "Shuttle airport"],
+    "availability": "in_stock",
+    "colors": []
+  },
+  {
+    "id": "PROD-005",
+    "name": "Vinpearl Discovery Phú Quốc",
+    "category": "du_lich",
+    "brand": "Vinpearl",
+    "price_vnd": 5200000,
+    "description": "Trọn gói 4N3Đ tại Vinpearl Discovery Phú Quốc, vé VinWonders miễn phí, trải nghiệm Safari.",
+    "features": ["Vé VinWonders", "Vé Safari", "Xe buggy miễn phí", "Beach club riêng"],
+    "availability": "in_stock",
+    "colors": []
+  },
+  {
+    "id": "PROD-006",
+    "name": "VinFast VF 3",
+    "category": "xe_dien",
+    "brand": "VinFast",
+    "price_vnd": 315000000,
+    "description": "Xe điện mini đô thị, thiết kế nhỏ gọn, phạm vi 215 km/lần sạc, phù hợp di chuyển nội đô.",
+    "features": ["Thiết kế mini", "Phạm vi 215 km", "Sạc tại nhà 220V", "Camera lùi"],
+    "availability": "in_stock",
+    "colors": ["Xanh mint", "Vàng chanh", "Hồng pastel", "Trắng"]
+  },
+  {
+    "id": "PROD-007",
+    "name": "Vinpearl Luxury Landmark 81",
+    "category": "du_lich",
+    "brand": "Vinpearl",
+    "price_vnd": 8900000,
+    "description": "Trải nghiệm 2N1Đ tại toà nhà cao nhất Việt Nam Landmark 81, phòng Panorama View sông Sài Gòn.",
+    "features": ["Sky bar tầng 76", "Hồ bơi tầng thượng", "View 360 độ", "Afternoon tea"],
+    "availability": "in_stock",
+    "colors": []
+  },
+  {
+    "id": "PROD-008",
+    "name": "VinFast VF Wild",
+    "category": "xe_dien",
+    "brand": "VinFast",
+    "price_vnd": 920000000,
+    "description": "Bán tải điện off-road, công suất 408 mã lực, phạm vi 450 km/lần sạc, khả năng vượt địa hình xuất sắc.",
+    "features": ["408 HP", "AWD 4 động cơ", "Chế độ Off-road", "Cốp thùng 1.2m", "Pin 88 kWh"],
+    "availability": "pre_order",
+    "colors": ["Cam sa mạc", "Xanh quân đội", "Đen chiến binh"]
+  }
+]

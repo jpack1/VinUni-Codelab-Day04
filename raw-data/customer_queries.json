@@ -1,0 +1,37 @@
+[
+  {
+    "id": "TC01",
+    "query": "Tôi muốn xem xe điện VinFast giá dưới 600 triệu.",
+    "expected_tools": ["search_product_catalog"],
+    "expected_args": {"category": "xe_dien", "max_price": 600000000},
+    "category": "single_tool_catalog_search"
+  },
+  {
+    "id": "TC02",
+    "query": "Tôi tên Lê Minh Khoa, xe VF 8 của tôi bị lỗi hệ thống ADAS. Đây là vấn đề nghiêm trọng, cần xử lý gấp.",
+    "expected_tools": ["submit_support_ticket"],
+    "expected_args": {"customer_name": "Lê Minh Khoa", "issue_description": "Xe VF 8 bị lỗi hệ thống ADAS", "priority": "high"},
+    "category": "single_tool_ticket_submit"
+  },
+  {
+    "id": "TC03",
+    "query": "Cho tôi xem resort Vinpearl giá dưới 6 triệu. Và tôi cũng muốn ghi nhận phản hồi: tên tôi là Phạm Thị Dung, phòng tôi đặt ở Vinpearl Nha Trang bị ẩm mốc, mức độ trung bình.",
+    "expected_tools": ["search_product_catalog", "submit_support_ticket"],
+    "expected_args_catalog": {"category": "du_lich", "max_price": 6000000},
+    "expected_args_ticket": {"customer_name": "Phạm Thị Dung", "issue_description": "Phòng đặt ở Vinpearl Nha Trang bị ẩm mốc", "priority": "medium"},
+    "category": "parallel_tool_calling"
+  },
+  {
+    "id": "TC04",
+    "query": "Chính sách bảo hành pin xe điện VinFast kéo dài bao lâu?",
+    "expected_tools": [],
+    "category": "faq_no_tool"
+  },
+  {
+    "id": "TC05",
+    "query": "Có xe điện nào giá dưới 200 triệu không?",
+    "expected_tools": ["search_product_catalog"],
+    "expected_args": {"category": "xe_dien", "max_price": 200000000},
+    "category": "no_results_fallback"
+  }
+]
